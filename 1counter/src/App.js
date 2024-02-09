@@ -6,7 +6,7 @@ import Functioncompo from "./component/Functioncompo";
 function App() {
   return (
     <div className="App">
-      <h1>counter</h1>
+      <h1>counter project</h1>
       {/* <Classcompo /> */}
       <Functioncompo name="novita" />
     </div>

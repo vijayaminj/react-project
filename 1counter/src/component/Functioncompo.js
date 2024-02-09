@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css"
 
 function Functioncompo(props){
     const[counter,setCounter]=useState(5);
@@ -18,20 +19,14 @@ function Functioncompo(props){
         }
     }
 
-
-
-
-
-
-
     return(
-        <>
+        <div className="fun">
         <h3>functional compo </h3>
         <h4>welcome {props.name}</h4>
-        <h3>counter value:{counter}</h3>
-        <button onClick={increment}>Increase Value</button>
-        <button onClick={decrement}>Decrement value</button>
-        </>
+        <h3 className="inner">counter value:<span>{counter}</span></h3>
+        <button onClick={increment} className="incre">Increase Value</button>
+        <button onClick={decrement} className="decre">Decrement value</button>
+        </div>
     )
 }
 export default Functioncompo;

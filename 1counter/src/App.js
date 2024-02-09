@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <h1>counter project</h1>
-      {/* <Classcompo /> */}
-      <Functioncompo name="novita" />
+      <Classcompo name="danish" />
+      {/* <Functioncompo name="novita" /> */}
     </div>
   );
 }

@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer>
-        <div className='className="mx-auto w-full max-w-screen-xl p-4 py-6'>
-            <span className='text-sm text-gray-500'> © 2023
+    <footer className='bg-pink-500'>
+        <div className='mx-auto w-full max-w-screen-xl p-4 py-6'>
+            <span className='text-sm text-white '> © 2023
             <Link to="https://www.google.com">Google
             </Link>
             . All Rights Reserved.

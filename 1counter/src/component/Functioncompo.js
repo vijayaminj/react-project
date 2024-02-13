@@ -20,8 +20,8 @@ function Functioncompo(props){
     }
 
     return(
-        <div className="fun">
-        <h3>functional compo </h3>
+        <div className="functioncompo">
+        <h3 className="head">functional compo </h3>
         <h4>welcome {props.name}</h4>
         <h3 className="inner">counter value:<span>{counter}</span></h3>
         <button onClick={increment} className="incre">Increase Value</button>

@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>counter project</h1>
       <Classcompo name="danish" />
-      {/* <Functioncompo name="novita" /> */}
+      <Functioncompo name="novita" />
     </div>
   );
 }

@@ -25,8 +25,8 @@ class Classcompo extends React.Component{
     }
     render(){
         return(
-            <div className="fun">
-            <h3>This is Class component </h3>
+            <div className="classcompo">
+            <h3 className="head">Class component </h3>
             <h4>welcome {this.props.name}</h4>
             <h3 className="inner">counter value:<span>{this.state.count}</span></h3>
             <button onClick={this.increment} className="incre">Increase Value</button>

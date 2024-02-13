@@ -8,17 +8,26 @@
   text-transform: capitalize;
   color: blue;
 }
-.fun{
+.functioncompo,.classcompo{
   width: 20rem;
   height: 10rem;
   border: 2px solid black;
   border-top-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
   margin:2rem auto;
-  
   background-color: #ffc8dd;
 }
+
+.classcompo .head{
+  font-size: 1.5rem;
+  color:#bf0603;
+}
+.functioncompo .head{
+  font-size: 1.5rem;
+  color:#6a4c93;
+}
 .inner{
+  font-size:1rem;
   border: 1px solid red;
   background-color:#2ec4b6 ;
   /* color: crimson; */

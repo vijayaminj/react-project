@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import Classcompo from "./component/Classcompo";
 import Functioncompo from "./component/Functioncompo";
+import Map from "./component/Map";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>counter project</h1>
       <Classcompo name="danish" />
       <Functioncompo name="novita" />
+      {/* <Map /> */}
     </div>
   );
 }
